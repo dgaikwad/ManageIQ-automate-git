@@ -1,7 +1,7 @@
 ---
 __domain__.yaml:
-  classes: 1
-  instances: 1
+  classes: 2
+  instances: 2
   created_on: !ruby/object:ActiveSupport::TimeWithZone
     utc: &1 2016-11-08 10:06:14.695785000 Z
     zone: &2 !ruby/object:ActiveSupport::TimeZone
@@ -41,8 +41,30 @@ testdomain/test/TestClass1.class/foo.yaml:
     zone: *2
     time: *8
   updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &9 2016-11-08 10:06:38.543164000 Z
+    utc: &9 2016-11-08 10:08:28.102891000 Z
     zone: *2
     time: *9
   size: 140
   sha1: p4fD4CoTng8e3jhvQs03XS8MmOs=
+testdomain/test/TestClass2.class/__class__.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &10 2016-11-08 10:08:35.515544000 Z
+    zone: *2
+    time: *10
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &11 2016-11-08 10:08:35.515544000 Z
+    zone: *2
+    time: *11
+  size: 184
+  sha1: u5bRf2GFL3nkws0k6hGI7iGsmkw=
+testdomain/test/TestClass2.class/baz.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &12 2016-11-08 10:08:42.238902000 Z
+    zone: *2
+    time: *12
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &13 2016-11-08 10:08:42.238902000 Z
+    zone: *2
+    time: *13
+  size: 140
+  sha1: YFJ1zYI9z2J3WIwdmIZPEhBoQfQ=
