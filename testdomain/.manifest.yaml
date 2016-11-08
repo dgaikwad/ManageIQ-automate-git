@@ -1,0 +1,48 @@
+---
+__domain__.yaml:
+  classes: 1
+  instances: 1
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2016-11-08 10:06:14.695785000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2016-11-08 10:06:14.695785000 Z
+    zone: *2
+    time: *3
+  size: 211
+  sha1: h+/ITSrSiJhUJgSsDT8A4Wg4dAs=
+testdomain/test/__namespace__.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &4 2016-11-08 10:06:21.181476000 Z
+    zone: *2
+    time: *4
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &5 2016-11-08 10:06:21.181476000 Z
+    zone: *2
+    time: *5
+  size: 143
+  sha1: rZhEObtJjqqC2UCInSbg3hrqY0U=
+testdomain/test/TestClass1.class/__class__.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &6 2016-11-08 10:06:30.038132000 Z
+    zone: *2
+    time: *6
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &7 2016-11-08 10:06:30.038132000 Z
+    zone: *2
+    time: *7
+  size: 184
+  sha1: GYsdKRnaDTzDU5aQFk02g13/s08=
+testdomain/test/TestClass1.class/foo.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &8 2016-11-08 10:06:38.543164000 Z
+    zone: *2
+    time: *8
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &9 2016-11-08 10:06:38.543164000 Z
+    zone: *2
+    time: *9
+  size: 140
+  sha1: p4fD4CoTng8e3jhvQs03XS8MmOs=
