@@ -35,14 +35,14 @@ testdomain/test/TestClass1.class/__class__.yaml:
     time: *7
   size: 184
   sha1: GYsdKRnaDTzDU5aQFk02g13/s08=
-testdomain/test/TestClass1.class/foo.yaml:
+testdomain/test/TestClass1.class/bar.yaml:
   created_on: !ruby/object:ActiveSupport::TimeWithZone
     utc: &8 2016-11-08 10:06:38.543164000 Z
     zone: *2
     time: *8
   updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &9 2016-11-08 10:06:38.543164000 Z
+    utc: &9 2016-11-08 10:07:58.494994000 Z
     zone: *2
     time: *9
   size: 140
-  sha1: p4fD4CoTng8e3jhvQs03XS8MmOs=
+  sha1: xdbkssQ5vU61PqMe2QlJYwsI39Y=
