@@ -2,69 +2,87 @@
 __domain__.yaml:
   classes: 2
   instances: 2
+  method_files: 1
+  method_instances: 1
   created_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &1 2016-11-08 10:06:14.695785000 Z
+    utc: &1 2018-01-26 17:39:41.682727000 Z
     zone: &2 !ruby/object:ActiveSupport::TimeZone
       name: Etc/UTC
     time: *1
   updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &3 2016-11-08 10:06:14.695785000 Z
+    utc: &3 2018-01-26 17:39:41.682727000 Z
     zone: *2
     time: *3
-  size: 211
-  sha1: h+/ITSrSiJhUJgSsDT8A4Wg4dAs=
+  size: 212
+  sha1: vfwBdSpFjYGXAUPt5A/HBDj2+wc=
 testdomain/test/__namespace__.yaml:
   created_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &4 2016-11-08 10:06:21.181476000 Z
+    utc: &4 2018-01-26 17:39:41.690102000 Z
     zone: *2
     time: *4
   updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &5 2016-11-08 10:06:21.181476000 Z
+    utc: &5 2018-01-26 17:39:41.690102000 Z
     zone: *2
     time: *5
   size: 143
   sha1: rZhEObtJjqqC2UCInSbg3hrqY0U=
 testdomain/test/TestClass1.class/__class__.yaml:
   created_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &6 2016-11-08 10:06:30.038132000 Z
+    utc: &6 2018-01-26 17:39:41.700883000 Z
     zone: *2
     time: *6
   updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &7 2016-11-08 10:06:30.038132000 Z
+    utc: &7 2018-01-26 17:39:41.700883000 Z
     zone: *2
     time: *7
   size: 184
   sha1: GYsdKRnaDTzDU5aQFk02g13/s08=
 testdomain/test/TestClass1.class/foo.yaml:
   created_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &8 2016-11-08 10:06:38.543164000 Z
+    utc: &8 2018-01-26 17:39:41.709069000 Z
     zone: *2
     time: *8
   updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &9 2016-11-08 10:08:28.102891000 Z
+    utc: &9 2018-01-26 17:39:41.709069000 Z
     zone: *2
     time: *9
   size: 140
   sha1: p4fD4CoTng8e3jhvQs03XS8MmOs=
-testdomain/test/TestClass2.class/__class__.yaml:
-  created_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &10 2016-11-08 10:08:35.515544000 Z
+testdomain/test/TestClass1.class/__methods__/meh.rb:
+  created_on: &12 !ruby/object:ActiveSupport::TimeWithZone
+    utc: &10 2018-01-26 17:40:27.165775000 Z
     zone: *2
     time: *10
-  updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &11 2016-11-08 10:08:35.515544000 Z
+  updated_on: &13 !ruby/object:ActiveSupport::TimeWithZone
+    utc: &11 2018-01-26 17:40:27.165775000 Z
     zone: *2
     time: *11
+  size: 8
+  sha1: gfmkd9ZHp7jHU9edplLewP3kAX0=
+testdomain/test/TestClass1.class/__methods__/meh.yaml:
+  created_on: *12
+  updated_on: *13
+  size: 199
+  sha1: XWhj44obmLfgMebSVZG6i1PP9ag=
+testdomain/test/TestClass2.class/__class__.yaml:
+  created_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &14 2018-01-26 17:39:41.714280000 Z
+    zone: *2
+    time: *14
+  updated_on: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &15 2018-01-26 17:39:41.714280000 Z
+    zone: *2
+    time: *15
   size: 184
   sha1: u5bRf2GFL3nkws0k6hGI7iGsmkw=
 testdomain/test/TestClass2.class/baz.yaml:
   created_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &12 2016-11-08 10:08:42.238902000 Z
+    utc: &16 2018-01-26 17:39:41.717973000 Z
     zone: *2
-    time: *12
+    time: *16
   updated_on: !ruby/object:ActiveSupport::TimeWithZone
-    utc: &13 2016-11-08 10:08:42.238902000 Z
+    utc: &17 2018-01-26 17:39:41.717973000 Z
     zone: *2
-    time: *13
+    time: *17
   size: 140
   sha1: YFJ1zYI9z2J3WIwdmIZPEhBoQfQ=
