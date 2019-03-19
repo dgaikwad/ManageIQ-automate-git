@@ -3,7 +3,7 @@ object_type: domain
 version: 1.0
 object:
   attributes:
-          name: testdomaindemo
+    name: testdomaindemo
     description: 
     display_name: 
     priority: 2
